@@ -1,0 +1,41 @@
+{
+
+    "homepage":{
+        "customerLoginBtn":"body > div.ng-scope > div > div.ng-scope > div > div.borderM.box.padT20 > div:nth-child(1) > button",
+        "bankManagerLoginBtn":"body > div.ng-scope > div > div.ng-scope > div > div.borderM.box.padT20 > div:nth-child(3) > button",
+        "homeBtn":"div.box.mainhdr > button.btn.home",
+        "headingtext":"div.box.mainhdr > strong"
+    },
+    "addcustomerpage":{
+
+        "addCustBtn":"body > div.ng-scope > div > div.ng-scope > div > div.center > button:nth-child(1)",
+        "firstName":"body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div > form > div:nth-child(1) > input",
+        "lastName":"body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div > form > div:nth-child(2) > input",
+        "postCode":"body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div > form > div:nth-child(3) > input",
+        "addCustSubmit":"body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div > form > button"
+      
+
+    },
+    "openaccountpage":{
+        "openaccountbtn":"body > div.ng-scope > div > div.ng-scope > div > div.center > button:nth-child(2)",
+        "customer":"#userSelect",
+        "currency":"#currency",
+        "processbtn":"form.ng-dirty > button"
+
+
+    },
+    "customerdetails":{
+        "customers":"div.ng-scope > div > div.center > button:nth-child(3)",
+        "searchcustomer":"div.ng-scope > div > div.ng-scope > div > form > div > div > input",
+        "firstNameText":":nth-child(1) > a",
+        "lastNameText":":nth-child(2) > a",
+        "postCodeText":":nth-child(3) > a",
+        "accountNumberText":":nth-child(4) > a",
+        "deleteCustText":":nth-child(5) > a",
+        "fNameResult": "tr.ng-scope > :nth-child(1)",
+        "fnameWithoutSearch": "div > table > tbody > tr:nth-child(1) > td:nth-child(1)"
+
+    }
+
+
+}
