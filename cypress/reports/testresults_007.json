@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-02-01T18:08:17.189Z",
+    "end": "2022-02-01T18:08:21.502Z",
+    "duration": 4313,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "7b7ba7a1-5c66-4116-8943-3596e7f89726",
+      "title": "",
+      "fullFile": "cypress/integration/testcases/CustomerLoginTest.spec.js",
+      "file": "cypress/integration/testcases/CustomerLoginTest.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c402b3ba-13ac-4774-ae88-ba9c819339c9",
+          "title": "Login as Customer",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify customer login",
+              "fullTitle": "Login as Customer Verify customer login",
+              "timedOut": null,
+              "duration": 2256,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homePage.loginAsCustomer();\ncustLoginAction.customerLogin('Hermoine Granger');\nuserProfil.userProfileVerication('Hermoine Granger', 'number:1002', '1002');",
+              "err": {},
+              "uuid": "dbfe9acb-554b-4569-8b35-6c293b4eec82",
+              "parentUUID": "c402b3ba-13ac-4774-ae88-ba9c819339c9",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "dbfe9acb-554b-4569-8b35-6c293b4eec82"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2256,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "testresults",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "reportFilename": "testresults",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}
