@@ -35,7 +35,24 @@
         "fNameResult": "tr.ng-scope > :nth-child(1)",
         "fnameWithoutSearch": "div > table > tbody > tr:nth-child(1) > td:nth-child(1)"
 
+    },
+    "customerlogin":{
+        "yourNameText":"div.ng-scope > div > form > div > label",
+        "userSelect":"#userSelect",
+        "loginBtn":"form.ng-valid > .btn"
+    },
+    "userProfil":{
+        "welcomeText": ".borderM > :nth-child(1) > strong",
+        "userName":".borderM > :nth-child(1) > strong>span",
+        "selectAccount":"#accountSelect",
+        "transactionBtn":"[ng-class='btnClass1']",
+        "deposit":"[ng-class='btnClass2']",
+        "withdrawl":"[ng-class='btnClass3']",
+        "accountNumberText":"div.ng-scope > div > div:nth-child(3)",
+        "accountNumber":"div.ng-scope > div > div:nth-child(3)>strong:nth-child(1)"
+        
     }
+
 
 
 }
